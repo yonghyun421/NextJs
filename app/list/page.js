@@ -18,7 +18,7 @@ export default function List() {
             onClick={() => {
               let newCount = [...count];
               newCount[index]++;
-              setCount([...newCount]);
+              setCount(newCount);
             }}
           >
             +
@@ -27,7 +27,7 @@ export default function List() {
             onClick={() => {
               let newCount = [...count];
               newCount[index]--;
-              setCount([...newCount]);
+              setCount(newCount);
             }}
           >
             -
